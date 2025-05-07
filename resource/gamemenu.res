@@ -1,20 +1,9 @@
 "Resource/GameMenu.res"
 {
-	"LightHUD"
-	{
-		"label"									"LightHUD"
-		"command"								"engine con_enable 1; toggleconsole; echo LightHUD by Hypnotize"
-	}
 	"Servers"
 	{
 		"label"									"servers"
 		"command"								"OpenServerBrowser"
-	}
-	"Create"
-	{
-		"label"									"create"
-		"command"								"OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu"							"1"
 	}
 	"Items"
 	{
