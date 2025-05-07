@@ -32,7 +32,7 @@
 	{
 		"ControlName"								"CExImageButton"
 		"fieldName"									"Scout"
-		"xpos"										"cs-0.5"
+		"xpos"										"cs-0.5+50"
 		"ypos"										"cs-0.5-50"
 		"zpos"										"6"
 		"wide"										"85"
