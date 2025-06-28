@@ -50,6 +50,89 @@
 			"xpos"									"9999"
 		}
 	}
+	"FriendsContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"FriendsContainer"
+		"xpos"										"rs1"
+		"ypos"										"cs-0.5+30"
+		"zpos"										"0"
+		"wide"										"110"
+		"tall"										"214"
+		"visible"									"1"
+		"proportionaltoparent"						"1"
+		"paintbackground"							"1"
+		"paintbackgroundtype"						"0"
+		"bgcolor_override"							"FooterBGBlack"
+
+		"TitleLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"TitleLabel"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"16"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"use_proportional_insets"				"1"
+			"font"									"HudFontSmall"
+			"labelText"								"#TF_Competitive_Friends"
+			"textAlignment"							"west"
+			"textinsetx"							"3"
+			"fgcolor"								"White"
+			"paintbackground"						"1"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"TransparentLightBlack"
+		}
+		"SteamFriendsList"
+		{
+			"ControlName"							"CSteamFriendsListPanel"
+			"fieldname"								"SteamFriendsList"
+			"xpos"									"rs1"
+			"ypos"									"rs1-2"
+			"zpos"									"500"
+			"wide"									"f2"
+			"tall"									"f20"
+			"visible"								"1"
+			"proportionaltoparent"					"1"
+
+			"paintbackground"						"0"
+			"paintbackgroundtype"					"0"
+			"bgcolor_override"						"0 0 0 255"
+
+			"columns_count"							"1"
+			"inset_x"								"0"
+			"inset_y"								"0"
+			"row_gap"								"2"
+			"column_gap"							"0"
+			"restrict_width"						"0"
+
+			"FriendPanel_KV"
+			{
+				"wide"								"104"
+				"tall"								"20"
+			}
+			"ScrollBar"
+			{
+				"ControlName"						"ScrollBar"
+				"FieldName"							"ScrollBar"
+				"xpos"								"rs1"
+				"ypos"								"0"
+				"tall"								"f0"
+				"wide"								"4"
+				"zpos"								"1000"
+				"nobuttons"							"1"
+				"proportionaltoparent"				"1"
+
+				"Slider"
+				{
+					"fgcolor_override"				"White"
+				}
+			}
+		}
+	}
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"								"EditablePanel"
@@ -167,7 +250,6 @@
 	//==================================================================================================================================================
 	"MenuThumbMissingFix"{"ControlName" "ImagePanel" "fieldName" "MenuThumbMissingFix" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../vgui/maps/menu_thumb_missing"}
 	"CPHighlight"{"ControlName" "ImagePanel" "fieldName" "CPHighlight" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/capture_highlight"}
-	"CPWarning"{"ControlName" "ImagePanel" "fieldName" "CPWarning" "xpos" "9999" "visible" "1" "enabled" "1" "image" "../sprites/obj_icons/warning_highlight"}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS
